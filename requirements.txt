@@ -1,0 +1,18 @@
+flask
+flask_sqlalchemy
+flask_cors
+flask_jwt_extended==3.25.1
+python-alipay-sdk==2.1.1
+requests
+bcrypt
+gunicorn
+gevent
+pymysql
+flask_limiter
+psycopg2-binary
+# python-telegram-bot
+# qrcode
+weixin-python
+wechat-pay-sdk
+Flask-APScheduler
+stripe
