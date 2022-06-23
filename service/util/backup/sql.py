@@ -200,7 +200,7 @@ def images_backup():
 # 数据库备份
 def sql_backup():
     SQL_PATH = os.path.join(os.path.dirname(__file__),'../../../public/sql')
-    src = SQL_PATH+'/kamifaka.db'
+    src = SQL_PATH+'/JamYido.db'
     create_dir('sql') 
     dst = os.path.join(BACKUP_PATH+'/sql')
     if os.path.exists(src):

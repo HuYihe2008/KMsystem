@@ -30,5 +30,5 @@ def post_tg(config,admin_account,data):
     return False
         
 if __name__ == "__main__":
-    post_tg('你好，佰阅！')    
+    post_tg('你好，JamYido')    
     # t.me/kamiFaka_bot  公共频道
