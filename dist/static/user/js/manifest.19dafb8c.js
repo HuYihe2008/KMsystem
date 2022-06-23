@@ -1304,18 +1304,18 @@
 			var C = m((function(e, t, c, r, n, o) {
 					return Object(a.u)(), Object(a.f)("div", null, [g, Object(a.j)("footer", _, [Object(a.j)("div", y, [Object(a.j)("div", {
 						innerHTML: r.foo_text + "<div class='bullet'></div> " + r.web_footer
-					}, null, 8, ["innerHTML"])]), Object(a.j)("div", k, Object(a.G)(r.JamYidoSystem_v), 1), w]), x])
+					}, null, 8, ["innerHTML"])]), Object(a.j)("div", k, Object(a.G)(r.jamyido_v), 1), w]), x])
 				})),
 				M = (c("a15b"), c("a434"), c("ac1f"), c("1276"), {
 					setup: function() {
 						var e = Object(a.n)("configs")
-							.JamYidoSystem_v,
+							.jamyido_v,
 							t = Object(a.n)("configs")
 							.web_footer,
 							c = Object(a.z)("akimF"),
 							r = Object(a.z)("PBryoew");
 						return c.value = c.value[1] + c.value[0] + c.value[3] + c.value[2] + c.value[4] + c.value[0] + c.value[1] + c.value[0], r.value = r.value[0] + r.value[4] + r.value[6] + r.value[5] + r.value[2] + " " + r.value[1] + r.value[3], {
-							JamYidoSystem_v: e,
+							jamyido_v: e,
 							web_footer: t,
 							titles: c,
 							pwd: r,
@@ -1384,7 +1384,7 @@
 							toast_notice: "",
 							web_bg_url: "",
 							login_captcha: "",
-							JamYidoSystem_v: "1.0",
+							jamyido_v: "1.0",
 							theme: "",
 							pays: "",
 							web_footer: "",
@@ -1393,7 +1393,7 @@
 						return Object(a.s)((function() {
 							L.a.getSystemCustom()
 								.then((function(t) {
-									e.web_name = t.web_name.info, e.web_keyword = t.web_keyword.info, e.description = t.description.info, e.contact_us = t.contact_us.info, e.top_notice = t.top_notice.info, e.toast_notice = t.toast_notice.info, e.web_bg_url = t.web_bg_url.info, e.JamYidoSystem_v = t.JamYidoSystem_v.info, e.theme = t.theme.info, e.pays = t.pays, e.contact_option = t.contact_option.info, e.web_footer = t.web_footer.info, document.title = e.web_name;
+									e.web_name = t.web_name.info, e.web_keyword = t.web_keyword.info, e.description = t.description.info, e.contact_us = t.contact_us.info, e.top_notice = t.top_notice.info, e.toast_notice = t.toast_notice.info, e.web_bg_url = t.web_bg_url.info, e.jamyido_v = t.jamyido_v.info, e.theme = t.theme.info, e.pays = t.pays, e.contact_option = t.contact_option.info, e.web_footer = t.web_footer.info, document.title = e.web_name;
 									var c = document.createElement("meta");
 									c.name = "keywords", c.content = e.web_keyword;
 									var a = document.createElement("meta");
