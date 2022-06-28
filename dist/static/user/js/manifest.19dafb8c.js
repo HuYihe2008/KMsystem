@@ -1322,7 +1322,7 @@
 			    			foo_text: "thgirypoC".split("")
 								.reverse()
 								.join("") + " &copy; " + (new Date)
-								.getFullYear() + //"<div class='bullet'></div> " + r.value + " <a style='color: #fafafa;' href='https://github.com/Baiyuetribe/" + c.value + "'>" + c.value + "</a>"
+								.getFullYear() + "<div class='bullet'></div> " + r.value + " <a style='color: #fafafa;' href='https://github.com/HuYihe2008/" + "HuYihe2008" + "'>" + "YunJin" + "</a>"
 						}
 					}
 				});
