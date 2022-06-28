@@ -11,7 +11,7 @@ def init_db(update=False):
     # 邮箱配置
     # db.session.add(Smtp('demo@qq.com','卡密发卡网','smtp.qq.com','465','xxxxxxxxx',True))
     # 支付渠道
-    db.session.add(Payment('支付宝当面付', '支付宝', "{'APPID':'2016091800537528','alipay_public_key':'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4AHTfGleo8WI3qb+mSWOjJRyn6Vh8XvO6YsQmJjPnNKhvACHTHcU+PCUWUKZ54fSVhMkFZEQWMtAGeOt3lGy3pMBS96anh841gxJc2NUljU14ESXnDn4QdVe4bosmYvfko46wfA0fGClHdpO8UUiJGLj1W5alv10CwiCrYRDtx93SLIuQgwJn4yBC1/kE/KENOaWaA45dXIQvKh2P0lTbm0AvwYMVvYB+eB1GtOGQbuFJXUxWaMa0byTo9wSllhgyiIkOH+HJ9oOZIweGlsrezeUUdr3EEX97k25LdnUt/oQK8FIfthexfWZpTDDlHqmI7p6gCtRVDJenU4sxwpEyQIDAQAB','app_private_key':'MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqWmxsyPLwRmZHwoLYlUJXMF7PATKtvp7BrJfwLbxwrz6I48G11HpPPyAoNynwAMG7DCXjVX76NCbmfvvPqnbk09rNRULqGju8G6NkQTbLfDjhJs+CE8kdIs89btxqDG70ebePiZTGpQngPLfrziKDOhRfXkA5qRPImbC+PUXiXq9qvkp9Yu/8IYjyxUpNBNjZuTK+fTjSI0RCt7eE+wR0KqpNIzot1q/ds1KTIYmJQM5tEFie4BK0pDtGiIs/VrUG8PTPqLyzEyIMy1N75olUWAiGrk0USqiieP3TYj0PdlQDX2T14DOwMkl5Rjvt7Knc+WGdolPIBssUX1wTE+J7AgMBAAECggEAWpRP+Jv0yRu1wMxFRKJArxmSH+GUL9wej/6Un2nCO+yChMkNtAAxtLdtAtUqIGpWmH2CG9nW9XULhh3ZCPer1kprmiAMz2t5fbD4dRNT7miz2cwIJDMfCbX7mb+7xUutJ6Mcnl7aU7FnierfJKvrn/ke4gK8haxIT66g0tbDtPQhYnGPawyM+gqFulaMBcuqH0naAIq5ZBWHkKuuwJ1SD6yGrWgHdq3Kt2pE8b9yjfdUl15IeW0rszXG6fTika9WX6qaulyoGAAZdjiXED+mbRyqZA3jq7RI38qBP9+/jAb+fdwE8EwqnpPvfGHMBdkREOXK0kzRU8rpd9GbH7INaQKBgQDwpuW+bK/qxKx3BSAXL98f0J2I7YVuk0EFCStGoxnzWRv0yvL0QEDwN+QPiVMmcVQcr79mW5zTBkd4vmr3ud+v1f/X6UPI82kQhZlVWry8LEnisPlZuE0E/EaJrLgF7z4l3ItzCVi8IfpgizPcCYSz/vY49a5W34eKjXHWUB1jDwKBgQC1N8PgGKI2LRDaJeqt5Ef6yyYSMOgVe0WSqAlgyMECb1pjmMBjcNG1AFE/FfgNu4thOaXIogElGVoQFvA5GuJQY48HOJNgx3Ua2SxiowcXkAN0gIm4FY+ozkp7xhizvLVfsmX+MKqPtl6nggiWETJJyvMQnjMgKLmSvhsopMwZ1QKBgGV36az2BOK3VITGq3Y7YBf5DUN76uPpwOOPryiUgs+hhfEcVX55TSg8WLPYUjAGXtHNpKVTAXfU0PPvTgjv3Yo1cC+okkU7pNQrkLB1lti8z9Z+ilSzKf5tJIzOP7V437p1GHNDwJ9qsDhe2VnwxXxjh4wSwxSsIWlhJFuZ4hovAoGAFgm8Fmqof3InlH/79D3IyyUdciTkdIhTQ6yPx2dioYstMOOIsg8sUZjCSKvBSNo/7wj1slqRTROyMja37Bnq39/bqwMkWSaohSVYEn7FBAaNhQOEvBBTMjI0OK00n9cZL5QgdzMv6t5A0JottSJOPU8jFChJC2Yoe0IHR4ATGikCgYB2smi7/ptKiGdwmiuUHsF/U3jfjpHyHwLrXjoSU+mwV+GjqcdbtkSP1suGjN8tcdbFvLSCRX/IRdFHYJeuPUXQtZtiC431+upasbEiJ1xZ2KcK3lKf0mOn10kPD5QC7mmsfmjz4cw9cSrBjmcWGXeIwIXPLhOAAIzpHqy8oP/F/g=='}", 'alipay.com 官方接口0.38~0.6%', True))
+    db.session.add(Payment('支付宝当面付', '支付宝', "{'APPID':'xxx','alipay_public_key':'xxx','app_private_key':'xxx'}", 'alipay.com 官方接口0.38~0.6%', False))
     db.session.add(Payment(
         '微信官方接口', '微信支付', "{'APPID':'XXXXXXXX','MCH_ID':'XXXXXX','APP_SECRET':'XXXXXX'}", 'pay.weixin.qq.com 微信官方0.38%需要营业执照', False))
     db.session.add(Payment(
@@ -57,29 +57,29 @@ def init_db(update=False):
                    'stripe.com综合收款系统(aud, cad, eur, gbp, hkd, jpy, sgd, usd)', False))
 
     # 商品分类
-    db.session.add(ProdCag('账户ID', '虚拟账号类商品', '100'))
-    db.session.add(ProdCag('激活码', '单独激活类商品', '1000'))
-    db.session.add(ProdCag('第三分类', '单独激活类商品', '1000'))
+    #db.session.add(ProdCag('账户ID', '虚拟账号类商品', '100'))
+    #db.session.add(ProdCag('激活码', '单独激活类商品', '1000'))
+    #db.session.add(ProdCag('第三分类', '单独激活类商品', '1000'))
     # 商品设置
-    db.session.add(ProdInfo('账户ID', '普通商品演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, None, True, 0, '请填写邮箱', True))
+    #db.session.add(ProdInfo('账户ID', '普通商品演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, None, True, 0, '请填写邮箱', True))
     # db.session.add(ProdInfo('账户ID','批发商品演示','商品简述信息演示XXXX','images/null.png','100','演示：我是商品描述信息',\
     #                             9.99,'9#9.9,8.8', True,0,0,True))
-    db.session.add(ProdInfo('账户ID', '批发商品演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, '9,100#9.9,8.82,7.7', True, 0, '请填写邮箱', True))
-    db.session.add(ProdInfo('账户ID', '普通商品DD', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, None, False, 0, '请填写邮箱', False))
-    db.session.add(ProdInfo('激活码', '重复卡密演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, None, True, 0, '请填写邮箱', True))
-    db.session.add(ProdInfo('激活码', '普通商品CC', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, None, True, 0, '请填写邮箱', True))
-    db.session.add(ProdInfo('激活码', '普通商品BB', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
-                            9.99, None, True, 0, '请填写邮箱', False))
+    #db.session.add(ProdInfo('账户ID', '批发商品演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, '9,100#9.9,8.82,7.7', True, 0, '请填写邮箱', True))
+    #db.session.add(ProdInfo('账户ID', '普通商品DD', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, None, False, 0, '请填写邮箱', False))
+    #db.session.add(ProdInfo('激活码', '重复卡密演示', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, None, True, 0, '请填写邮箱', True))
+    #db.session.add(ProdInfo('激活码', '普通商品CC', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, None, True, 0, '请填写邮箱', True))
+    #db.session.add(ProdInfo('激活码', '普通商品BB', '商品简述信息演示XXXX', 'images/null.png', '100', '示例：卡密格式：账号------密码-----',
+    #                        9.99, None, True, 0, '请填写邮箱', False))
     # 卡密设置
-    db.session.add(Card('普通商品演示', '454545454454545454', False, False))
-    db.session.add(Card('批发商品演示', '555555555555555555', False, False))
-    db.session.add(Card('批发商品演示', '666666666666666666', False, False))
-    db.session.add(Card('重复卡密演示', '666666666666666666', True, False))
+    #db.session.add(Card('普通商品演示', '454545454454545454', False, False))
+    #db.session.add(Card('批发商品演示', '555555555555555555', False, False))
+    #db.session.add(Card('批发商品演示', '666666666666666666', False, False))
+    #db.session.add(Card('重复卡密演示', '666666666666666666', True, False))
     # 系统配置
     db.session.add(Config('web_name', 'JamYido', '网站名称', True))
     db.session.add(Config('web_keyword', '关键词、收录词汇', '网站关键词', True))
@@ -95,13 +95,13 @@ def init_db(update=False):
     db.session.add(Config('top_notice', '稳定版演示站点，公告信息可在后台设置', '首页公告', True))
     db.session.add(
         Config('toast_notice', '稳定版演示站点，公告信息可在后台设置', '首页滑动消息设置', True))
-    # db.session.add(Config('top_notice','开发版演示站点，公告信息可在后台设置','首页公告',True))
-    # db.session.add(Config('toast_notice','这里是开发板，每天更新好几次那种','首页滑动消息设置',True))
-    # db.session.add(Config('modal_notice','【计划中】','全局弹窗信息',True))
+    db.session.add(Config('top_notice','开发版演示站点，公告信息可在后台设置','首页公告',True))
+    db.session.add(Config('toast_notice','这里是开发板，每天更新好几次那种','首页滑动消息设置',True))
+    db.session.add(Config('modal_notice','【计划中】','全局弹窗信息',True))
     db.session.add(Config('contact_option', '0', '是否启用联系方式查询[0启用，1关闭]', True))
     db.session.add(Config('theme', 'list', '主题', False))
     db.session.add(Config('jamyido', 'https://github.com/Huyihe2008/KMsystem', 'Github项目地址，用于手动检测新版', False))
-    db.session.add(Config('jamyido_v', '1.88', 'Github项目地址，用于手动检测新版', False))
+    db.session.add(Config('jamyido_v', '1.0', 'Github项目地址，用于手动检测新版', False))
 
     # 通知渠道 ：名称；对管理员开关；对用户开关；对管理员需要管理员账号；用户无；名称+config+管理员+admin_switch+user_switch
     db.session.add(Notice(
