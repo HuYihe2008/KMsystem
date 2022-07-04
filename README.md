@@ -1,22 +1,20 @@
 
 
 # <center>欢迎使用JamYidoSystem 发卡系统 #
-![Docker Image Version (latest by date)](https://img.shields.io/docker/v/huyihe/jamyidosystem-faka?label=docker%20version&style=for-the-badge) 
-![Docker Automated build](https://img.shields.io/docker/automated/huyihe/jamyidosystem-faka?style=for-the-badge&color=brightgreen) 
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/huyihe/jamyidosystem-faka?style=for-the-badge) 
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/HuYihe2008/JamYidoSystem-faka/latest/total?style=for-the-badge) 
-![GitHub](https://img.shields.io/github/license/HuYihe2008/JamYidoSystem-faka?style=for-the-badge) 
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/huyihe/kmsystem?label=docker%20version&style=for-the-badge) 
+![Docker Automated build](https://img.shields.io/docker/automated/huyihe/kmsystem?style=for-the-badge&color=brightgreen) 
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/huyihe/kmsystem?style=for-the-badge) 
+![GitHub](https://img.shields.io/github/license/HuYihe2008/kmsystem?style=for-the-badge) 
 ![GitHub followers](https://img.shields.io/github/followers/HuYihe2008?style=for-the-badge) 
-![GitHub forks](https://img.shields.io/github/forks/Huyihe2008/jamyidosystem-faka?style=for-the-badge) 
-![GitHub Repo stars](https://img.shields.io/github/stars/Huyihe2008/jamyidosystem-faka?style=for-the-badge) 
-![GitHub watchers](https://img.shields.io/github/watchers/Huyihe2008/jamyidosystem-faka?style=for-the-badge) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Huyihe2008/jamyidosystem-faka?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Huyihe2008/jamyidosystem-faka?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Huyihe2008/kmsystem?style=for-the-badge) 
+![GitHub Repo stars](https://img.shields.io/github/stars/Huyihe2008/kmsystem?style=for-the-badge) 
+![GitHub watchers](https://img.shields.io/github/watchers/Huyihe2008/kmsystem?style=for-the-badge) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Huyihe2008/kmsystem?style=for-the-badge)
 ![作者](https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E4%BA%91%E5%A0%87%EF%BC%88JamYido%EF%BC%89-red?style=for-the-badge)
 
 ---
 
-### [反馈](https://github.com/HuYihe2008/JamYidoSystem-Faka/discussions) 
+### [反馈](https://github.com/HuYihe2008/kmsystem/discussions) 
 
 ---
 
@@ -48,7 +46,7 @@
 
     1.进入宝塔，打开软件商店，搜索docker
 
-    2.安装完毕后进入dockers管理器，点击镜像管理，点击镜像搜索，输入“huyihe/jamyidosystem-faka”即可拉取镜像
+    2.安装完毕后进入dockers管理器，点击镜像管理，点击镜像搜索，输入“huyihe/kmsystem”即可拉取镜像
 
     3.部署镜像
 
@@ -67,14 +65,14 @@
     -e DB_USER=key_jamyido \
     -e DB_PASSWORD=Hyh386855867 \
     -e DB_DATABASE=key_jamyido \
-    huyihe/jamyidosystem-faka
+    huyihe/kmsystem
     
     #然后你可一使用http://服务器IP:8000/  访问面板
 ```
 
 ## Github社区讨论
 
-项目已开通专属社区,主要集中开发者计划、BUG反馈、新功能建议等，欢迎积极参与讨论，[点此进入](https://github.com/HuYihe2008/JamYidoSystem-faka/discussions) 
+项目已开通专属社区,主要集中开发者计划、BUG反馈、新功能建议等，欢迎积极参与讨论，[点此进入](https://github.com/HuYihe2008/kmsystem/discussions) 
 
 ### 项目依赖
 - 前端UI：Stisla --> https://github.com/stisla/stisla
