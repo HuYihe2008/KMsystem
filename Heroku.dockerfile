@@ -2,7 +2,7 @@ FROM huyihe/kmsystem:dev
 LABEL 维护者="2812856215@qq.com"
 
 # 备选数据库Sqlite \Mysql \ PostgreSQL
-ENV DB_TYPE='Sqlite'
+ENV DB_TYPE='PostgreSQL'
 
 RUN sed -i "s|'postgresql+psycopg2://\${DB_USER}:\${DB_PASSWORD}@\${DB_HOST}:\${DB_PORT}/\${DB_DATABASE}'|'\`echo \$DATABASE_URL \| sed \'s/postgres/postgresql\\\+psycopg2/\'\`'|g" docker-entrypoint.sh && \
     sed -i '$d' docker-entrypoint.sh && \
