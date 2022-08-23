@@ -1,11 +1,11 @@
 {
-    "name": "佰阅发卡",
+    "name": "JamYido发卡",
     "description": "基于VUE3.0+FLASK构建的全新卡密发卡系统",
     "keywords": [
-        "佰阅发卡"
+        "JamYido发卡"
     ],
-    "website": "https://github.com/Baiyuetribe/kamiFaka",
-    "repository": "https://github.com/Baiyuetribe/kamiFaka",
+    "website": "https://github.com/HuYihe2008/KMsystem",
+    "repository": "https://github.com/HuYihe2008/KMsystem",
     "stack": "container",
     "addons": [
         {
